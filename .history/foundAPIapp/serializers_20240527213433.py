@@ -17,8 +17,5 @@ class PostSerializer(serializers.ModelSerializer):
             'contactphone',
             'contactemail',
             'formtype', 
-            'createdat',
-            'updatedat',
-            'latitude',
-            'longitude'
+            'createdat'
         ]

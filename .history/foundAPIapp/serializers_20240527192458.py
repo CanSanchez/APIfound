@@ -6,7 +6,7 @@ class PostSerializer(serializers.ModelSerializer):
     class Meta:
         model = Post
         fields = [
-            'id', 
+            'pk', 
             'petname', 
             'petimage',
             'pettype',
@@ -17,8 +17,5 @@ class PostSerializer(serializers.ModelSerializer):
             'contactphone',
             'contactemail',
             'formtype', 
-            'createdat',
-            'updatedat',
-            'latitude',
-            'longitude'
+            'createdat'
         ]
